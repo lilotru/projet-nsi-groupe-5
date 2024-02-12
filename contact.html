@@ -17,6 +17,28 @@
     </nav>
 </header>
 <body>
-    
+    <main>
+        <section>
+            <h2>Coordonnées</h2>
+            <p>Adresse : 123 Rue de la Gastronomie, 75001 Paris</p>
+            <p>Téléphone : +33 01 42 92 81 00</p>
+            <p>Email : restaurant.latabledor@gmail.com </p>
+        </section>
+        <section>
+            <h2>Formulaire de Contact</h2>
+            <form action="envoyer_message.php" method="POST">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 La Table d'Or. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
