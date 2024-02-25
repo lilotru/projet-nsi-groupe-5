@@ -60,13 +60,13 @@ section p {
 }
 
 footer {
-    background-color: #333; /* Couleur de fond du footer */
-    color: #fff; /* Couleur du texte */
-    padding: 20px 0; /* Espacement interne */
-    text-align: center; /* Centrage du contenu */
+    background-color: #333;
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center;
 }
 
 .bandeau {
-    max-width: 1200px; /* Largeur maximale du contenu */
-    margin: 0 auto; /* Centrage horizontal */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
