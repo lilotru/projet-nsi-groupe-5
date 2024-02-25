@@ -1,4 +1,4 @@
-/* Styles généraux */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -38,8 +38,12 @@ section {
     margin-bottom: 30px;
 }
 
-/* Styles spécifiques pour la présentation de l'équipe */
+section h1{
+    font-size: 32px;
+}
+
 section h2 {
+    font-size: 20px;
     color: #333;
 }
 
@@ -49,4 +53,20 @@ section p {
 }
 .centre {
     text-align: center;
+}
+.image{
+    width: 1366px;
+    height: auto;
+}
+
+footer {
+    background-color: #333; /* Couleur de fond du footer */
+    color: #fff; /* Couleur du texte */
+    padding: 20px 0; /* Espacement interne */
+    text-align: center; /* Centrage du contenu */
+}
+
+.bandeau {
+    max-width: 1200px; /* Largeur maximale du contenu */
+    margin: 0 auto; /* Centrage horizontal */
 }
