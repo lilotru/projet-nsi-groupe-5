@@ -13,6 +13,7 @@ header {
 header h1 {
     color: #333;
     margin: 0;
+    font-size: 48px;
 }
 
 nav ul {
@@ -23,6 +24,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+    font-size: 20px;
 }
 
 nav ul li a {
@@ -72,4 +74,21 @@ footer {
 }
 .gras{
     font-weight: bold;
+}
+
+.menu-background {
+    position: absolute; /* Position absolue pour que l'élément recouvre tout le conteneur */
+    top: 150px;
+    left: 0;
+    width: 100%; /* Occupe toute la largeur du conteneur */
+    height: 100%; /* Occupe toute la hauteur du conteneur */
+    background-size: cover; 
+    background-position : center; 
+    opacity: 0.35; /* Opacité de l'image */
+    z-index: -1; /* Place l'image en arrière-plan */
+}
+section nav ul li {
+    display: block;
+    font-size: 24px;
+    padding: 10px;
 }
