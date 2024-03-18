@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h2>La table d'or</h2>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="équipe.html">Notre équipe</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="vins.html">Carte des vins</a></li>
+            <li><a href="reservation.html">Réservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="histoire.html">Notre histoire</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <form action="">
+        <p>
+            <label for="votre_nom">
+                Votre nom : 
+                <input type="text" name="nom" id="votre_nom" />
+                Votre prénom :
+                <input type="text" name="prénom" id="votre_prénom" />	
+                Votre mot de passe :
+                <input type="password" name="mdp" id="votre_mdp" />
+                Votre date de naissance :
+                <input type="date" name="date" id=" votre_date" />
+                <textarea name="vie" rows=10 cols=50 id="votre_vie">
+                </textarea>
+            </label>
+        </p>
+        <p>
+            Etes-vous un homme ou une femme (ou autre)?
+            <br />
+            <label for="un_homme">
+                <input type="radio" name="sexe" value="homme" id="un_homme" checked />
+                Un homme
+                <input type="radio" name="sexe" value="femme" id="une_femme" checked />
+                Une femme
+            </label>
+        
+            <br />
+           </p>
+           <p>Cochez les loisirs que vous aimez:
+            <br />
+            <label for="le_cinema"><input type="checkbox" name="cinema" id="le_cinema" />Cinéma</label><br />
+            <label for="la_lecture"><input type="checkbox" name="lecture" id="la_lecture" />Lecture	<label>	<br />
+            <label for="le_sports"><input type="checkbox" name="sports" id="le_sports" /> Sports	<label>	<br />
+            <label for="la_musique"><input type="checkbox" name="musique" id="la_musique" />	Musique <label>   </p>
+    </form>
+</body>
