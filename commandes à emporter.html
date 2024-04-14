@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1>La table d'or</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="équipe.html">Notre équipe</a></li>
+            <li><a href="menu3.html">Menu</a></li>
+            <li><a href="vins.html">Carte des vins</a></li>
+            <li><a href="reservation.html">Réservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="commande 0.html">Commander</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <img src="image restaurant.jpg" class="menu-background"/>
+    <h1>Vente à emporter</h1>
+
+    <div id="form-container">
+        <form id="order-form" class="form-step" data-step="1">
+            <h2>Entrée</h2>
+            <input type="radio" id="entree1" name="entree" value="Plat 1">
+            <label class="choix">Salade de chèvre chaud sur lit de mesclun, vinaigrette balsamique.</label><br>
+            
+        
+            <input type="radio" id="entree2" name="entree" value="Plat 2">
+            <label class="choix">Velouté du jour accompagné de croûtons maison.</label><br>
+
+
+            <input type="radio" id="entree3" name="entree" value="Plat 3">
+            <label class="choix">Terrine maison aux légumes, confiture d'oignons rouges.</label><br>
+            
+        
+            <button type="button" class="next-step">Suivant</button>
+        </form>
+        
+
+        <form id="order-form" class="form-step" data-step="2">
+            <h2>Plat Principal</h2>
+            <input type="radio" id="plat1" name="plat" value="Plat Principal 1">
+            <label class="choix">Pavé de saumon rôti, sauce citronnée, riz pilaf et légumes de saison.</label><br>
+            
+
+            <input type="radio" id="plat2" name="plat" value="Plat Principal 2">
+            <label class="choix">Poêlée de poulet au curry, accompagnée de riz basmati parfumé.</label><br>
+
+            <input type="radio" id="plat2" name="plat" value="Plat Principal 3">
+            <label class="choix">Linguine à la carbonara de légumes, copeaux de parmesan.</label><br>
+
+
+            <button type="button" class="next-step">Suivant</button>
+            
+        </form>
+
+        <form id="order-form" class="form-step" data-step="3">
+            <h2>Dessert</h2>
+            <input type="radio" id="dessert1" name="plat" value="Dessert 1">
+            <label class="choix">Fondant au chocolat noir, cœur coulant au caramel salé, glace à la vanille de Madagascar.</label><br>
+            
+
+            <input type="radio" id="dessert2" name="plat" value="Dessert 2">
+            <label class="choix">Crème brûlée à la vanille bourbon, accompagnée de fruits rouges frais.</label><br>
+            
+            <button type="button" class="next-step">Suivant</button>
+            
+        </form>
+
+
+        <form id="order-form" class="form-step" data-step="4">
+            <h2>Boisson hors formule</h2>
+            <input type="radio" id="plat1" name="plat" value="Plat Principal 1">
+            <label class="choix">Bouteille de vin blanc 13,50€</label><br>
+            
+
+            <input type="radio" id="plat2" name="plat" value="Plat Principal 2">
+            <label class="choix">Bouteille de vin rouge 14,75€</label><br>
+
+            <input type="radio" id="plat2" name="plat" value="Plat Principal 3">
+            <label class="choix">Bouteille de rosé 11€</label><br>
+
+
+
+            <button type="button" class="next-step">Suivant</button>
+            
+        </form>
+        
+    </div>
+
+    <p id="message">Merci pour votre commande cliquer <a href="formulaire paiement.html">ici</strong></a> pour procéder au paiement</p>
+
+    <script src="javascript.js"></script>
+</body>
+<footer>
+    <div class="bandeau">
+        <p>Adresse : 123 Rue de la Gastronomie, 75001 Paris</p>
+        <p>Téléphone : +33 01 42 92 81 00</p>
+        <p>Email : restaurant.latabledor@gmail.com</p>
+        <p>ouvert de 12H00 à 14H00 et de 19H00 à 23H00</p>
+    </div>
+<p>&copy; 2024 La Table d'Or - Tous droits réservés</p>
+</footer>

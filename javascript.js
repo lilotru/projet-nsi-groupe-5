@@ -12,6 +12,42 @@ function entreePrenom()
 }
 
 
+
+document.addEventListener('DOMContentLoaded', function() {
+  const forms = document.querySelectorAll('.form-step');
+  const message = document.getElementById('message');
+
+  // Fonction pour afficher le formulaire suivant
+  function showNextForm(currentStep) {
+      const nextStep = currentStep.dataset.step;
+      const nextForm = document.querySelector(`.form-step[data-step="${parseInt(nextStep) + 1}"]`);
+
+      if (nextForm) {
+          currentStep.style.display = 'none';
+          nextForm.style.display = 'block';
+      } else {
+          // Afficher un message de confirmation lorsque toutes les étapes sont terminées
+          
+          document.getElementById('message').style.display = 'block';;
+          currentStep.style.display = 'none';
+      }
+  }
+
+  // Détecte si on appui sur un bouton "Suivant"
+  const nextButtons = document.querySelectorAll('.next-step');
+  nextButtons.forEach(button => {
+      button.addEventListener('click', function() {
+          const currentForm = this.parentElement;
+          showNextForm(currentForm);
+      });
+  });
+});
+
+
+
+
+
+
 var monbouton=document.getElementById("bouton");
 function maFonction()
 {
@@ -50,3 +86,6 @@ var imagejavascript = document.createElement("img")
 var imagejavascript = document.createElement("img")
 
  imagejavascript.src = "https://tse3.mm.bing.net/th?id=OIP.HcvF8ebcFYuFTv0zYGEf7QHaFE&pid=Api&P=0&h=180"
+
+
+ 
