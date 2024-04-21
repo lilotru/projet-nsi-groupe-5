@@ -1,14 +1,14 @@
 document.getElementById("bouton").addEventListener("click", function() {
-    // Lorsque le bouton est cliqué, afficher la boîte modale avec l'image
+    // Lorsque le bouton est cliqué, affiche la nouvelle fenetre avecc l'image
     var imageURL = "https://tse1.mm.bing.net/th?id=OIP.whrWTKNx-P5bH6ZTdrt9KgHaE8&pid=Api&P=0&h=180;" // Remplacez "chemin_vers_votre_image.jpg" par le chemin de votre image
     var modal = document.getElementById("modal");
     var image = document.getElementById("image");
 
-    // Afficher l'image dans la boîte modale
+    // Affiche l'image dans la nouvelle fenetre 
     image.src = imageURL;
     modal.style.display = "block";
 
-    // Fermer la boîte modale lorsque l'utilisateur clique sur le bouton de fermeture
+    // Ferme la boîte modale quand le client appuye sur le bouton
     var closeButton = document.getElementById("close");
     closeButton.onclick = function() {
         modal.style.display = "none";
