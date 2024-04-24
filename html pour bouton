@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alerte avec Image</title>
+    <title>La Table d'Or</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        // style pour la fenetre
         #modal {
             display: none;
             position: fixed;
@@ -55,6 +55,6 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="javascript.js"></script>
 </body>
 </html>
