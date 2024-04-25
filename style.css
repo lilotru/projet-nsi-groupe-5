@@ -1,13 +1,13 @@
 #imageContainer {
-    display: none; /* L'image est cachée par défaut */
+    display: none; /* L'image est cachée de base */
 }
 
 #imageContainer2 {
-    display: none; /* L'image est cachée par défaut */
+    display: none; 
 }
 
 #imageContainer3 {
-    display: none; /* L'image est cachée par défaut */
+    display: none; 
 }
 
 body {
