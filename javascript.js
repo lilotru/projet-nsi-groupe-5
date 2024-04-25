@@ -1,92 +1,4 @@
-document.getElementById('showImageButton').addEventListener('click', function() {
-    // Sélectionne l'élément contenant l'image
-    var imageContainer = document.getElementById('imageContainer');
 
-    // Crée un élément image
-    var image = document.createElement('img');
-
-    // Définit la source de l'image (url de l'image que vous avez choisie)
-    image.src = "https://tse3.mm.bing.net/th?id=OIP.mkwvc4IRQRXNvw24UA-mOAHaFj&pid=Api&P=0&h=180";
-
-    // Affiche l'image en la rendant visible
-    imageContainer.appendChild(image);
-    imageContainer.style.display = 'block';
-});
-
-document.getElementById('showImageButton2').addEventListener('click', function() {
-    // Sélectionne l'élément contenant l'image
-    var imageContainer = document.getElementById('imageContainer2');
-
-    // Crée un élément image
-    var image = document.createElement('img');
-
-    // Définit la source de l'image (url de l'image que vous avez choisie)
-    image.src = "https://tse3.mm.bing.net/th?id=OIP.-HOmGCoCCk_agw7zfMvobgHaE7&pid=Api&P=0&h=180";
-
-    // Affiche l'image en la rendant visible
-    imageContainer2.appendChild(image);
-    imageContainer2.style.display = 'block';
-});
-
-document.getElementById('showImageButton3').addEventListener('click', function() {
-    // Sélectionne l'élément contenant l'image
-    var imageContainer = document.getElementById('imageContainer3');
-
-    // Crée un élément image
-    var image = document.createElement('img');
-
-    // Définit la source de l'image (url de l'image que vous avez choisie)
-    image.src = "https://tse1.mm.bing.net/th?id=OIP.tb6bhXOWM1cUepocTKX2qgHaFm&pid=Api&P=0&h=180";
-
-    // Affiche l'image en la rendant visible
-    imageContainer3.appendChild(image);
-    imageContainer3.style.display = 'block';
-});
-
-document.getElementById('showImageButton4').addEventListener('click', function() {
-    // Sélectionne l'élément contenant l'image
-    var imageContainer4 = document.getElementById('imageContainer4');
-
-    // Crée un élément image
-    var image = document.createElement('img');
-
-    // Définit la source de l'image (url de l'image que vous avez choisie)
-    image.src = "https://tse1.mm.bing.net/th?id=OIP.whrWTKNx-P5bH6ZTdrt9KgHaE8&pid=Api&P=0&h=180";
-
-    // Affiche l'image en la rendant visible
-    imageContainer4.appendChild(image);
-    imageContainer4.style.display = 'block';
-});
-
-document.getElementById('showImageButton5').addEventListener('click', function() {
-    // Sélectionne l'élément contenant l'image
-    var imageContainer5 = document.getElementById('imageContainer5');
-
-    // Crée un élément image
-    var image = document.createElement('img');
-
-    // Définit la source de l'image (url de l'image que vous avez choisie)
-    image.src = "https://tse1.mm.bing.net/th?id=OIP.wO1cwBP-BCb6QK28NfaI2gHaHa&pid=Api&P=0&h=180";
-
-    // Affiche l'image en la rendant visible
-    imageContainer5.appendChild(image);
-    imageContainer5.style.display = 'block';
-});
-
-document.getElementById('showImageButton6').addEventListener('click', function() {
-    // Sélectionne l'élément contenant l'image
-    var imageContainer6 = document.getElementById('imageContainer6');
-
-    // Crée un élément image
-    var image = document.createElement('img');
-
-    // Définit la source de l'image (url de l'image que vous avez choisie)
-    image.src = "https://tse4.mm.bing.net/th?id=OIP.6NBhir9iyW19YIlcXn8tmAHaD4&pid=Api&P=0&h=180";
-
-    // Affiche l'image en la rendant visible
-    imageContainer6.appendChild(image);
-    imageContainer6.style.display = 'block';
-});
 
 
 function entreePrenom() {
@@ -189,5 +101,93 @@ var imagejavascript = document.createElement("img")
 
 
    
- 
+ document.getElementById('showImageButton').addEventListener('click', function() {
+    // Sélectionne l'élément contenant l'image
+    var imageContainer = document.getElementById('imageContainer');
+
+    // Crée un élément image
+    var image = document.createElement('img');
+
+    // Définit la source de l'image (url de l'image que vous avez choisie)
+    image.src = "https://tse3.mm.bing.net/th?id=OIP.mkwvc4IRQRXNvw24UA-mOAHaFj&pid=Api&P=0&h=180";
+
+    // Affiche l'image en la rendant visible
+    imageContainer.appendChild(image);
+    imageContainer.style.display = 'block';
+});
+
+document.getElementById('showImageButton2').addEventListener('click', function() {
+    // Sélectionne l'élément contenant l'image
+    var imageContainer = document.getElementById('imageContainer2');
+
+    // Crée un élément image
+    var image = document.createElement('img');
+
+    // Définit la source de l'image (url de l'image que vous avez choisie)
+    image.src = "https://tse3.mm.bing.net/th?id=OIP.-HOmGCoCCk_agw7zfMvobgHaE7&pid=Api&P=0&h=180";
+
+    // Affiche l'image en la rendant visible
+    imageContainer2.appendChild(image);
+    imageContainer2.style.display = 'block';
+});
+
+document.getElementById('showImageButton3').addEventListener('click', function() {
+    // Sélectionne l'élément contenant l'image
+    var imageContainer = document.getElementById('imageContainer3');
+
+    // Crée un élément image
+    var image = document.createElement('img');
+
+    // Définit la source de l'image (url de l'image que vous avez choisie)
+    image.src = "https://tse1.mm.bing.net/th?id=OIP.tb6bhXOWM1cUepocTKX2qgHaFm&pid=Api&P=0&h=180";
+
+    // Affiche l'image en la rendant visible
+    imageContainer3.appendChild(image);
+    imageContainer3.style.display = 'block';
+});
+
+document.getElementById('showImageButton4').addEventListener('click', function() {
+    // Sélectionne l'élément contenant l'image
+    var imageContainer4 = document.getElementById('imageContainer4');
+
+    // Crée un élément image
+    var image = document.createElement('img');
+
+    // Définit la source de l'image (url de l'image que vous avez choisie)
+    image.src = "https://tse1.mm.bing.net/th?id=OIP.whrWTKNx-P5bH6ZTdrt9KgHaE8&pid=Api&P=0&h=180";
+
+    // Affiche l'image en la rendant visible
+    imageContainer4.appendChild(image);
+    imageContainer4.style.display = 'block';
+});
+
+document.getElementById('showImageButton5').addEventListener('click', function() {
+    // Sélectionne l'élément contenant l'image
+    var imageContainer5 = document.getElementById('imageContainer5');
+
+    // Crée un élément image
+    var image = document.createElement('img');
+
+    // Définit la source de l'image (url de l'image que vous avez choisie)
+    image.src = "https://tse1.mm.bing.net/th?id=OIP.wO1cwBP-BCb6QK28NfaI2gHaHa&pid=Api&P=0&h=180";
+
+    // Affiche l'image en la rendant visible
+    imageContainer5.appendChild(image);
+    imageContainer5.style.display = 'block';
+});
+
+document.getElementById('showImageButton6').addEventListener('click', function() {
+    // Sélectionne l'élément contenant l'image
+    var imageContainer6 = document.getElementById('imageContainer6');
+
+    // Crée un élément image
+    var image = document.createElement('img');
+
+    // Définit la source de l'image (url de l'image que vous avez choisie)
+    image.src = "https://tse4.mm.bing.net/th?id=OIP.6NBhir9iyW19YIlcXn8tmAHaD4&pid=Api&P=0&h=180";
+
+    // Affiche l'image en la rendant visible
+    imageContainer6.appendChild(image);
+    imageContainer6.style.display = 'block';
+});
 

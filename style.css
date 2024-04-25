@@ -79,10 +79,7 @@ footer {
     text-align: center;
 }
 
-.bandeau {
-    max-width: 1200px; 
-    margin: 0 auto; 
-}
+
 .gras{
     font-weight: bold;
 }
@@ -125,9 +122,9 @@ section nav ul li {
 
 
 button {
-    margin-top: 10px;
-    padding : 0px;
-    font-size: 10px;
+    margin-top: 20px;
+    padding : 20px;
+    font-size: 16px;
 }
 #boutonp{
     padding :10px;
@@ -182,5 +179,4 @@ button {
     right: 10px;
     cursor: pointer;
 }
-   
-}
+
