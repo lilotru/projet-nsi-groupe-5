@@ -1,3 +1,48 @@
+document.getElementById('showImageButton').addEventListener('click', function() {
+    // Sélectionne l'élément contenant l'image
+    var imageContainer = document.getElementById('imageContainer');
+
+    // Crée un élément image
+    var image = document.createElement('img');
+
+    // Définit la source de l'image (url de l'image que vous avez choisie)
+    image.src = "https://tse3.mm.bing.net/th?id=OIP.mkwvc4IRQRXNvw24UA-mOAHaFj&pid=Api&P=0&h=180";
+
+    // Affiche l'image en la rendant visible
+    imageContainer.appendChild(image);
+    imageContainer.style.display = 'block';
+});
+
+document.getElementById('showImageButton2').addEventListener('click', function() {
+    // Sélectionne l'élément contenant l'image
+    var imageContainer = document.getElementById('imageContainer2');
+
+    // Crée un élément image
+    var image = document.createElement('img');
+
+    // Définit la source de l'image (url de l'image que vous avez choisie)
+    image.src = "https://tse3.mm.bing.net/th?id=OIP.-HOmGCoCCk_agw7zfMvobgHaE7&pid=Api&P=0&h=180";
+
+    // Affiche l'image en la rendant visible
+    imageContainer2.appendChild(image);
+    imageContainer2.style.display = 'block';
+});
+
+document.getElementById('showImageButton3').addEventListener('click', function() {
+    // Sélectionne l'élément contenant l'image
+    var imageContainer = document.getElementById('imageContainer3');
+
+    // Crée un élément image
+    var image = document.createElement('img');
+
+    // Définit la source de l'image (url de l'image que vous avez choisie)
+    image.src = "https://tse1.mm.bing.net/th?id=OIP.tb6bhXOWM1cUepocTKX2qgHaFm&pid=Api&P=0&h=180";
+
+    // Affiche l'image en la rendant visible
+    imageContainer3.appendChild(image);
+    imageContainer3.style.display = 'block';
+});
+
 function entreePrenom() {
     // Récupère les différentes données du formulaire
     var nom = document.getElementById('nom').value;
@@ -95,23 +140,8 @@ var imagejavascript = document.createElement("img")
 
  imagejavascript.src = "https://tse3.mm.bing.net/th?id=OIP.HcvF8ebcFYuFTv0zYGEf7QHaFE&pid=Api&P=0&h=180"
 
+
+
+   
  
- document.getElementById("bouton").addEventListener("click", function() {
-    // Lorsque le bouton est cliqué, affiche la nouvelle fenetre avecc l'image
-    var imageURL = "https://tse1.mm.bing.net/th?id=OIP.whrWTKNx-P5bH6ZTdrt9KgHaE8&pid=Api&P=0&h=180;"
-// pour change l'image, il faut changer le lien ci-dessus avec les autres liens dans le java scipt du menu
-    var modal = document.getElementById("modal");
-    var image = document.getElementById("image");
 
-    // Affiche l'image dans la nouvelle fenetre 
-    image.src = imageURL;
-    modal.style.display = "block";
-
-    // Ferme la boîte modale quand le client appuye sur le bouton
-    var closeButton = document.getElementById("close");
-    closeButton.onclick = function() {
-        modal.style.display = "none";
-    }
-});
-
- 
