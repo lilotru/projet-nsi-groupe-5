@@ -22,38 +22,29 @@ function verifierBouton() {
 }
 
 
-
-
-document.addEventListener('DOMContentLoaded', function() {
+    // Sélectionne tous les formulaires avec la classe "form-step"
     const forms = document.querySelectorAll('.form-step');
+    // Sélectionne l'élément qui affichera le message de confirmation
     const message = document.getElementById('message');
+    // Sélectionne tous les boutons "Suivant"
+    const suivant = document.querySelectorAll('.next-step');
+    var x=0;
   
-    // Fonction pour afficher le formulaire suivant
-    function showNextForm(currentStep) {
-        const nextStep = currentStep.dataset.step;
-        const nextForm = document.querySelector(`.form-step[data-step="${parseInt(nextStep) + 1}"]`);
-  
-        if (nextForm) {
-            currentStep.style.display = 'none';
-            nextForm.style.display = 'block';
-        } else {
-            // Afficher un message de confirmation lorsque toutes les étapes sont terminées
-            
-            document.getElementById('message').style.display = 'block';
-            currentStep.style.display = 'none';
-        }
-    }
-  
-    // Détecte si on appui sur un bouton "Suivant"
-    const nextButtons = document.querySelectorAll('.next-step');
-    nextButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            const currentForm = this.parentElement;
-            showNextForm(currentForm);
+        //à chaque clic, efffectue la fonction
+        document.addEventListener('click', function() {
+            // Cache le formulaire actuel
+            forms[x].style.display = 'none';
+            // Vérifie s'il y a un formulaire suivant
+            if (forms[x+1]) {
+                // Affiche le formulaire suivant
+                forms[x+1].style.display = 'block';
+                x++;
+            } else {
+                // Affiche un message de confirmation lorsque toutes les étapes sont terminées
+                document.getElementById('message').style.display = 'block';
+            }
         });
-    });
-  });
-  
+    
 
 
 
