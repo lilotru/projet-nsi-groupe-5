@@ -30,7 +30,7 @@ function verifierBouton() {
     const suivant = document.querySelectorAll('.next-step');
     var x=0;
   
-        //à chaque clic, efffectue la fonction
+        //à chaque clic, effectue la fonction
         document.addEventListener('click', function() {
             // Cache le formulaire actuel
             forms[x].style.display = 'none';
