@@ -1,13 +1,11 @@
-#imageContainer {
-    display: none; /* L'image est cachée de base */
+
+#image-container {
+  margin-top: 20px;
 }
 
-#imageContainer2 {
-    display: none; 
-}
-
-#imageContainer3 {
-    display: none; 
+#image-container img {
+  max-width: 100%;
+  height: auto;
 }
 
 body {
