@@ -1,6 +1,3 @@
-
-
-
 function entreePrenom() {
     // Récupère les différentes données du formulaire
     var nom = document.getElementById('nom').value;
@@ -25,7 +22,8 @@ function verifierBouton() {
     // Sélectionne tous les formulaires avec la classe "form-step"
     const forms = document.querySelectorAll('.form-step');
     // Sélectionne l'élément qui affichera le message de confirmation
-    const message = document.getElementById('message');
+
+ const message = document.getElementById('message');
     var x=0;
   
         //vérifie s'il y a un clic d'effectué
@@ -45,61 +43,15 @@ function verifierBouton() {
     
 
 
-
-
-
-var monbouton=document.getElementById("bouton");
-function maFonction()
-{
-    alert("en cours de procédure");
-}
-monbouton.onclick=maFonction;
-
- var imagejavascript = document.createElement("img")
-
- imagejavascript.src = "https://tse1.mm.bing.net/th?id=OIP.whrWTKNx-P5bH6ZTdrt9KgHaE8&pid=Api&P=0&h=180"
- 
-var imagejavascript = document.createElement("img")
-
- imagejavascript.src = "https://tse1.mm.bing.net/th?id=OIP.wO1cwBP-BCb6QK28NfaI2gHaHa&pid=Api&P=0&h=180"
-
-var imagejavascript = document.createElement("img")
-
- imagejavascript.src = "https://tse4.mm.bing.net/th?id=OIP.6NBhir9iyW19YIlcXn8tmAHaD4&pid=Api&P=0&h=180"
-
-var imagejavascript = document.createElement("img")
-
- imagejavascript.src = "https://tse3.mm.bing.net/th?id=OIP.mkwvc4IRQRXNvw24UA-mOAHaFj&pid=Api&P=0&h=180"
-
-var imagejavascript = document.createElement("img")
-
- imagejavascript.src = "https://tse3.mm.bing.net/th?id=OIP.-HOmGCoCCk_agw7zfMvobgHaE7&pid=Api&P=0&h=180"
-
-var imagejavascript = document.createElement("img")
-
- imagejavascript.src = "https://tse1.mm.bing.net/th?id=OIP.tb6bhXOWM1cUepocTKX2qgHaFm&pid=Api&P=0&h=180"
-
-var imagejavascript = document.createElement("img")
-
- imagejavascript.src = "https://tse2.mm.bing.net/th?id=OIP.AKMdmQkF6ai2BPC8So_r7QHaEK&pid=Api&P=0&h=180"
-
-var imagejavascript = document.createElement("img")
-
- imagejavascript.src = "https://tse3.mm.bing.net/th?id=OIP.HcvF8ebcFYuFTv0zYGEf7QHaFE&pid=Api&P=0&h=180"
-
-
-
-   
 const btn1 = document.getElementById('btn1');
 const btn2 = document.getElementById('btn2');
 const btn3 = document.getElementById('btn3');
 const btn4 = document.getElementById('btn4');
 const btn5 = document.getElementById('btn5');
 const btn6 = document.getElementById('btn6');
-
 const imageContainer = document.getElementById('image-container');
 
-
+// Fonction pour afficher une image
 function afficherImage(src) {
   const img = document.createElement('img');
   img.src = src;
@@ -107,19 +59,18 @@ function afficherImage(src) {
   imageContainer.appendChild(img);
 }
 
-
+// Événements de clic pour chaque bouton
 btn1.addEventListener('click', function() {
-  afficherImage('img boeuf.jpeg');
-});
-
-btn2.addEventListener('click', function() {
   afficherImage('img linguine.jpeg');
 });
 
-btn3.addEventListener('click', function() {
+btn2.addEventListener('click', function() {
   afficherImage('img poulet.jpeg');
 });
 
+btn3.addEventListener('click', function() {
+  afficherImage('img saumon.jpeg');
+});
 btn4.addEventListener('click', function() {
   afficherImage('img risotto.jpeg');
 });
@@ -127,7 +78,7 @@ btn5.addEventListener('click', function() {
   afficherImage('img rossini.jpeg');
 });
 btn6.addEventListener('click', function() {
-  afficherImage('img saumon.jpeg');
+  afficherImage('img_saumon.jpeg');
 });
 btn7.addEventListener('click', function() {
   afficherImage('img volaille.jpeg');
