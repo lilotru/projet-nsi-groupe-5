@@ -26,8 +26,6 @@ function verifierBouton() {
     const forms = document.querySelectorAll('.form-step');
     // Sélectionne l'élément qui affichera le message de confirmation
     const message = document.getElementById('message');
-    // Sélectionne tous les boutons "Suivant"
-    const suivant = document.querySelectorAll('.next-step');
     var x=0;
   
         //vérifie s'il y a un clic d'effectué
