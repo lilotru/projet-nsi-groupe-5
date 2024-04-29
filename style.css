@@ -175,3 +175,10 @@ button {
 
 
 
+.liste{
+    display: block;
+}
+
+.marge{
+    margin-left: 10px;
+}

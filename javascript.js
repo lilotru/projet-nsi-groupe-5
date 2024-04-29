@@ -66,32 +66,33 @@ function afficherImage(src) {
   imageContainer.appendChild(img);
 }
 
-// Événements de clic pour chaque bouton
-btn5.addEventListener('click', function() {
-  afficherImage('img boeuf.jpeg');
-});
 
-btn4.addEventListener('click', function() {
-  afficherImage('img risotto.jpeg');
-});
-
-btn7.addEventListener('click', function() {
-  afficherImage('img volaille.jpeg');
-});
 btn1.addEventListener('click', function() {
-  afficherImage('img linguine.jpeg');
-});
+	afficherImage('img linguine.jpeg');
+  });
+  
+  btn2.addEventListener('click', function() {
+	afficherImage('img poulet.jpeg');
+  });
+  
+  btn3.addEventListener('click', function() {
+	afficherImage('img saumon.jpeg');
+  });
+// Événements de clic pour chaque bouton
+// btn5.addEventListener('click', function() {
+//   afficherImage('img boeuf.jpeg');
+// });
 
-btn2.addEventListener('click', function() {
-  afficherImage('img poulet.jpeg');
-});
+// btn4.addEventListener('click', function() {
+//   afficherImage('img risotto.jpeg');
+// });
 
-btn3.addEventListener('click', function() {
-  afficherImage('img saumon.jpeg');
-});
-btn6.addEventListener('click', function() {
-  afficherImage('img_saumon.jpeg');
-});
-btn8.addEventListener('click', function() {
-  afficherImage('img langouste.jpeg');
-});
+// btn7.addEventListener('click', function() {
+//   afficherImage('img volaille.jpeg');
+// });
+// btn6.addEventListener('click', function() {
+//   afficherImage('img_saumon.jpeg');
+// });
+// btn8.addEventListener('click', function() {
+//   afficherImage('img langouste.jpeg');
+// });
