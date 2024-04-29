@@ -78,10 +78,12 @@ btn1.addEventListener('click', function() {
   btn3.addEventListener('click', function() {
 	afficherImage('img saumon.jpeg');
   });
-// Événements de clic pour chaque bouton
-// btn5.addEventListener('click', function() {
-//   afficherImage('img boeuf.jpeg');
-// });
+
+if (btn5){
+	btn5.addEventListener('click', function() {
+		afficherImage('img boeuf.jpeg');
+});
+}
 
 // btn4.addEventListener('click', function() {
 //   afficherImage('img risotto.jpeg');
