@@ -1,11 +1,4 @@
-#image-container {
-  margin-top: 20px;
-}
 
-#image-container img {
-  max-width: 100%;
-  height: auto;
-}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -24,9 +17,13 @@ header h1 {
 }
 
 nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
     padding: 0;
 }
+
 
 nav ul li {
     display: inline;

@@ -19,28 +19,35 @@ function verifierBouton() {
 }
 
 
-    // Sélectionne tous les formulaires avec la classe "form-step"
-    const forms = document.querySelectorAll('.form-step');
-    // Sélectionne l'élément qui affichera le message de confirmation
+    /// Sélectionne tous les formulaires
+const forms = document.querySelectorAll('.form-step');
+// Sélectionne tous les boutons
+const boutons = document.querySelectorAll('.next-step');
+// Sélectionne l'élément qui affichera le message de confirmation
+const message = document.getElementById('message');
+var x = 0;
 
- const message = document.getElementById('message');
-    var x=0;
-  
-        //vérifie s'il y a un clic d'effectué
-        document.addEventListener('click', function() {
-            // Cache le formulaire actuel
-            forms[x].style.display = 'none';
-            // Vérifie s'il y a un formulaire suivant
-            if (forms[x+1]) {
-                // Affiche le formulaire suivant
-                forms[x+1].style.display = 'block';
-                x++;
-            } else {
-                // Affiche un message de confirmation lorsque toutes les étapes sont terminées
-                document.getElementById('message').style.display = 'block';
-            }
-        });
+// Pour chaque bouton, ajoute un gestionnaire d'événements pour le clic
+boutons.forEach(function(bouton) {
+    bouton.addEventListener('click', function() {
+        // Cache le formulaire actuel
+        forms[x].style.display = 'none';
+        // Vérifie s'il y a un formulaire suivant
+        if (forms[x + 1]) {
+            // Affiche le formulaire suivant
+            forms[x + 1].style.display = 'block';
+            x++;
+        } else {
+            // Affiche un message de confirmation lorsque toutes les étapes sont terminées
+            message.style.display = 'block';
+        }
+    });
+});
 
+
+
+
+        
 const btn1 = document.getElementById('btn1');
 const btn2 = document.getElementById('btn2');
 const btn3 = document.getElementById('btn3');
